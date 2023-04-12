@@ -11,12 +11,9 @@ export default class Character {
   attack(target) {
     target.healthPoints -= this.power;
   console.log(`${this.name} attacks ${target.name} for ${this.power} damage`);
-  }
-  kill (target) {
-    if (target.healthPoints <= 0){
-      return character1.currXp += target.giveXp;
-    }
+   if (target.healthPoints <= 0){
+    return character1.currXp += target.giveXp;
   }
 }
-
+} 
 
