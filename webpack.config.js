@@ -18,7 +18,7 @@ module.exports = {
       verbose: true
     }) ,
     new HtmlWebpackPlugin({
-      title: 'journalWebpack',
+      title: 'BuildAnRPG',
       template: './src/index.html',
       inject: 'body'
     })
