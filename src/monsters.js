@@ -1,6 +1,4 @@
-
-
-export default class Character {
+export default class Monsters {
   constructor(name, healthPoints, power) {
     this.name = name;
     this.healthPoints = healthPoints;
@@ -8,5 +6,3 @@ export default class Character {
     
   }
 }
-
-
