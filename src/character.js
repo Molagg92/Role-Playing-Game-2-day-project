@@ -1,11 +1,11 @@
 
 export default class Character {
-  constructor(name, healthPoints, power, currXp) {
+  constructor(name, healthPoints, power, currXp, level) {
     this.name = name;
     this.healthPoints = healthPoints;
     this.power = power;
     this.currXp = currXp;
-
+    this.level = level;
     
   }
   attack(target) {
