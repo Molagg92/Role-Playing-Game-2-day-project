@@ -1,4 +1,4 @@
-import Character from "./character";
+import Character from './character.js';
 
 export default class Monsters {
   constructor(name, healthPoints, power, giveXp) {
@@ -8,8 +8,8 @@ export default class Monsters {
     this.giveXp = giveXp;
   }
 
-attack(target) {
-  target.healthPoints -= this.power;
-console.log(`${Character.name} attacks ${Monsters.name} for ${this.power} damage`);
+  attack(target) {
+    target.healthPoints -= this.power;
+    console.log(`${this.name} attacks ${target.name} for ${this.power} damage`);
   }
 }
